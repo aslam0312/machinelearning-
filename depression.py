@@ -161,7 +161,7 @@ st.markdown(
 # Collect inputs
 Age = st.number_input('Age', min_value=0, max_value=100)
 Academic_Pressure = st.slider('Academic Pressure', min_value=0, max_value=5)
-CGPA = st.slider('CGPA', min_value=0.0, max_value=15.0, value=3.31, step=0.01)
+CGPA = st.number_input('CGPA', min_value=0.0, max_value=15.0, value=3.31, step=0.01)
 Study_Satisfaction = st.slider('Study Satisfaction', min_value=0, max_value=5)
 Sleep_Duration = st.selectbox('Sleep Duration', [
     '5-6_hours', '7-8_hours', 'Less_than_5_hours', 'More_than_8_hours'
