@@ -40,20 +40,6 @@ st.write(
 # User input form
 st.header("User Input Form")
 
-# Custom styles for input widgets
-st.markdown(
-    """
-    <style>
-    .stTextInput, .stSlider, .stSelectbox, .stRadio {
-        font-size: 18px !important;
-    }
-    label {
-        font-size: 18px !important;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
 
 # Collect inputs
 Age = st.number_input('Age', min_value=0, max_value=100)
